@@ -1,0 +1,9 @@
+﻿property_type,description_group,listing_count,median_price_billion,mean_price_billion,median_description_length
+Căn hộ chung cư,Ngắn (<=300 ký tự),78,4.275,7.5612051282051285,221.5
+Căn hộ chung cư,Trung bình (301-600),132,4.625,7.418780303030303,451.5
+Căn hộ chung cư,Dài (601-1000),116,4.475,6.459913793103448,736.0
+Căn hộ chung cư,Rất dài (>1000),74,7.045,8.292702702702702,1212.0
+Nhà,Ngắn (<=300 ký tự),163,7.0,15.428705521472391,240.0
+Nhà,Trung bình (301-600),293,7.65,14.87251194539249,431.0
+Nhà,Dài (601-1000),124,8.3,20.24105645160484,712.0
+Nhà,Rất dài (>1000),20,10.375,16.941499999999998,1172.5

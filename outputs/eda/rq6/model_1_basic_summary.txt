@@ -1,0 +1,46 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              log_price   R-squared:                       0.707
+Model:                            OLS   Adj. R-squared:                  0.700
+Method:                 Least Squares   F-statistic:                     81.30
+Date:                Thu, 05 Nov 2026   Prob (F-statistic):          5.43e-203
+Time:                        18:38:29   Log-Likelihood:                -642.22
+No. Observations:                1000   AIC:                             1330.
+Df Residuals:                     977   BIC:                             1443.
+Df Model:                          22                                         
+Covariance Type:                  HC3                                         
+==========================================================================================================
+                                             coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------
+Intercept                                 17.0446      0.207     82.368      0.000      16.639      17.450
+C(property_type)[T.Nhà]                    0.6386      0.037     17.295      0.000       0.566       0.711
+C(district_model)[T.Bình Thạnh]            0.8247      0.166      4.961      0.000       0.499       1.151
+C(district_model)[T.Bình Tân]              0.3179      0.160      1.990      0.047       0.005       0.631
+C(district_model)[T.Gò Vấp]                0.4386      0.162      2.716      0.007       0.122       0.755
+C(district_model)[T.Không rõ]              0.7487      0.166      4.501      0.000       0.423       1.075
+C(district_model)[T.Nhà Bè]                0.2100      0.167      1.258      0.208      -0.117       0.537
+C(district_model)[T.Nhóm ít mẫu (<10)]    -1.3462      0.319     -4.225      0.000      -1.971      -0.722
+C(district_model)[T.Phú Nhuận]             0.9074      0.168      5.412      0.000       0.579       1.236
+C(district_model)[T.Quận 1]                1.4746      0.182      8.084      0.000       1.117       1.832
+C(district_model)[T.Quận 10]               0.9750      0.173      5.622      0.000       0.635       1.315
+C(district_model)[T.Quận 11]               0.6199      0.178      3.490      0.000       0.272       0.968
+C(district_model)[T.Quận 12]               0.1083      0.164      0.659      0.510      -0.214       0.430
+C(district_model)[T.Quận 3]                1.2546      0.196      6.414      0.000       0.871       1.638
+C(district_model)[T.Quận 4]                0.7769      0.219      3.546      0.000       0.348       1.206
+C(district_model)[T.Quận 5]                0.6818      0.237      2.881      0.004       0.218       1.145
+C(district_model)[T.Quận 6]                0.5732      0.175      3.285      0.001       0.231       0.915
+C(district_model)[T.Quận 7]                0.6053      0.152      3.984      0.000       0.307       0.903
+C(district_model)[T.Quận 8]                0.4425      0.160      2.757      0.006       0.128       0.757
+C(district_model)[T.Thủ Đức]               0.5213      0.157      3.320      0.001       0.214       0.829
+C(district_model)[T.Tân Bình]              0.6520      0.162      4.031      0.000       0.335       0.969
+C(district_model)[T.Tân Phú]               0.5106      0.154      3.317      0.001       0.209       0.812
+log_area                                   1.0939      0.036     30.281      0.000       1.023       1.165
+==============================================================================
+Omnibus:                       54.412   Durbin-Watson:                   1.900
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              192.101
+Skew:                          -0.068   Prob(JB):                     1.93e-42
+Kurtosis:                       5.143   Cond. No.                         149.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)

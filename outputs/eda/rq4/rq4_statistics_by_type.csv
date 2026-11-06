@@ -1,0 +1,5 @@
+﻿,area_m2,area_m2,area_m2,area_m2,area_m2,area_m2,price_billion,price_billion,price_billion,price_billion,price_billion,price_billion,price_per_m2_million,price_per_m2_million,price_per_m2_million,price_per_m2_million,price_per_m2_million,price_per_m2_million
+,count,mean,median,std,min,max,count,mean,median,std,min,max,count,mean,median,std,min,max
+property_type,,,,,,,,,,,,,,,,,,
+Căn hộ chung cư,400,84.61,75.0,37.25,32.0,323.5,400,7.33,4.85,9.32,0.78,95.0,400,78.84,63.57,54.6,11.0,500.0
+Nhà,600,88.87,67.85,84.09,11.0,1243.3,600,16.2,7.6,37.1,0.65,600.0,600,156.55,125.84,124.82,3.69,1428.57

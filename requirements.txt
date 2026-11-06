@@ -1,0 +1,13 @@
+pandas
+numpy
+scipy
+requests
+beautifulsoup4
+lxml
+jupyter
+matplotlib
+seaborn
+openpyxl
+python-dotenv
+streamlit>=1.40
+plotly>=5.24

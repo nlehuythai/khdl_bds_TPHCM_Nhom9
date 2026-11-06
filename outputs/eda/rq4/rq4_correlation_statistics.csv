@@ -1,0 +1,7 @@
+﻿group,relationship,sample_count,pearson_correlation,spearman_correlation
+Toàn bộ,area_m2 vs price_billion,1000,0.5363498055248868,0.5303479204529525
+Toàn bộ,area_m2 vs price_per_m2_million,1000,0.2265663151970178,-0.0668513791684035
+Căn hộ chung cư,area_m2 vs price_billion,400,0.6871269967089296,0.6561606338807869
+Căn hộ chung cư,area_m2 vs price_per_m2_million,400,0.3248097658224339,0.23624991718234542
+Nhà,area_m2 vs price_billion,600,0.5330460721917648,0.6672943353319216
+Nhà,area_m2 vs price_per_m2_million,600,0.2184253968369802,-0.0521939464545078
